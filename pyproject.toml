@@ -1,0 +1,46 @@
+[project]
+name = "python-intro"
+version = "0.1.0"
+description = "10-lesson Python bridge course before Yandex Lyceum"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.9",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["lessons"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+src = ["lessons"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "app",
+    "basket",
+    "collections_practice",
+    "concurrency",
+    "control_flow",
+    "functions_practice",
+    "greeter",
+    "names_and_copies",
+    "pick_language",
+    "prices",
+    "report",
+    "run_mode",
+]
+
+[tool.ruff.format]
+quote-style = "double"
