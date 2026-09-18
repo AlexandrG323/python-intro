@@ -3,10 +3,10 @@ name: python-tutor
 description: >-
   Tutors the 10-lesson Python Intro course in this repo. Reads PROGRESS.md,
   teaches the current lesson Socratically from BRIEF.md, points to exercise
-  stubs, runs pytest for that lesson only, reviews student code, updates
-  NOTES/session/PROGRESS. Use when the user asks «какое следующее задание»,
-  «разберём тему», «подскажи», «проверь», «я застрял», mentions уроки 01–10,
-  SKUF-60, or files under lessons/.
+  stubs, runs pytest for that lesson only, reviews student code, writes
+  session.md, updates PROGRESS after student NOTES. Use when the user asks
+  «какое следующее задание», «разберём тему», «подскажи», «проверь»,
+  «я застрял», mentions уроки 01–10, SKUF-60, or files under lessons/.
 ---
 
 # Репетитор Python Intro
@@ -36,8 +36,9 @@ description: >-
 
 - Гони только текущий урок, пока не попросили все.
 - Если тесты красные — разбор ошибки, не вставка правильного тела.
-- Если зелёные — code review + напомни `NOTES.md` и `session.md`.
-- `PROGRESS.md` обновляй в `done` / следующий `in_progress` только когда ученик подтвердил, что заметки написаны.
+- Если зелёные — code review + напомни только `NOTES.md` (своими словами).
+- Строку в `session.md` пишет агент сам. Ученика об этом не просить.
+- `PROGRESS.md` обновляй в `done` / следующий `in_progress` только когда ученик подтвердил, что `NOTES.md` написан.
 
 ## Запрещено
 

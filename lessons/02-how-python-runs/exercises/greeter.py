@@ -1,2 +1,2 @@
 def greet(name: str) -> str:
-    raise NotImplementedError
+    return f"Hello, {name}!"

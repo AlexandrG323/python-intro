@@ -1,6 +1,10 @@
 def should_run_cli(module_name: str) -> bool:
-    raise NotImplementedError
+    if module_name == "__main__":
+        return True
+    return False
 
 
 def describe_run_mode(imported: bool) -> str:
-    raise NotImplementedError
+    if imported:
+        return "library"
+    return "script"

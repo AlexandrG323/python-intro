@@ -1,6 +1,6 @@
 # Прогресс
 
-Текущий урок: **02-how-python-runs**
+Текущий урок: **03-names-types**
 
 Статусы: `not_started` → `in_progress` → `review` → `done`.
 
@@ -9,8 +9,8 @@
 | Урок | Тема | Статус |
 | --- | --- | --- |
 | [01-why-python](lessons/01-why-python) | Почему Python | done |
-| [02-how-python-runs](lessons/02-how-python-runs) | Как выполняется код | in_progress |
-| [03-names-types](lessons/03-names-types) | Имена, типы, изменяемость | not_started |
+| [02-how-python-runs](lessons/02-how-python-runs) | Как выполняется код | done |
+| [03-names-types](lessons/03-names-types) | Имена, типы, изменяемость | in_progress |
 | [04-control-flow](lessons/04-control-flow) | Условия и циклы | not_started |
 | [05-collections](lessons/05-collections) | Коллекции | not_started |
 | [06-functions](lessons/06-functions) | Функции | not_started |
@@ -22,5 +22,5 @@
 Урок закрыт, когда:
 
 1. `uv run pytest lessons/NN-slug` зелёный;
-2. `NOTES.md` заполнен своими словами;
-3. в `session.md` есть строка занятия.
+2. `NOTES.md` заполнен учеником своими словами;
+3. агент дописал строку занятия в `session.md`.

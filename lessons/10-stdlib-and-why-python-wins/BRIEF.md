@@ -54,4 +54,4 @@ uv run pytest lessons/10-stdlib-and-why-python-wins
 
 ## Урок закрыт, когда
 
-тесты зелёные; NOTES с устной сводкой; session.md. После этого курс-мост закрыт; материалы Лицея после зачисления — в `yandex-education/year-1-python/`.
+тесты зелёные; NOTES с устной сводкой; агент пишет session.md. После этого курс-мост закрыт; материалы Лицея после зачисления — в `yandex-education/year-1-python/`.

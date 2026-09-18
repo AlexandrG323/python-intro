@@ -48,4 +48,4 @@ uv run pytest lessons/01-why-python
 
 - тесты зелёные;
 - в `NOTES.md` есть ответ: «когда я выберу Python, а когда нет»;
-- в `session.md` строка занятия.
+- агент пишет строку занятия в `session.md`.

@@ -11,7 +11,7 @@
 3. Разберите `BRIEF.md` текущего урока вопросами, не готовым кодом.
 4. Допиши функции в `lessons/NN-…/exercises/`.
 5. Проверь: `uv run pytest lessons/NN-slug`.
-6. Своими словами заполни `NOTES.md`, допиши строку в `session.md`.
+6. Своими словами заполни `NOTES.md`. Строку в `session.md` пишет агент.
 
 Правила ментора: [AGENTS.md](AGENTS.md). Прогресс: [PROGRESS.md](PROGRESS.md).
 
