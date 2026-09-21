@@ -1,18 +1,18 @@
 def is_same_object(a: object, b: object) -> bool:
-    raise NotImplementedError
+    return a is b
 
 
 def is_none(value: object) -> bool:
-    raise NotImplementedError
+    return value is None
 
 
 def shallow_copy(xs: list) -> list:
-    raise NotImplementedError
+    return xs.copy()
 
 
 def mutate_last(xs: list, value: object) -> None:
-    raise NotImplementedError
+    xs[-1] = value
 
 
 def swap(a: object, b: object) -> tuple:
-    raise NotImplementedError
+    return b, a
