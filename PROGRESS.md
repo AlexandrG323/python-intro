@@ -1,6 +1,6 @@
 # Прогресс
 
-Текущий урок: **04-control-flow**
+Текущий урок: **05-collections**
 
 Статусы: `not_started` → `in_progress` → `review` → `done`.
 
@@ -11,8 +11,8 @@
 | [01-why-python](lessons/01-why-python) | Почему Python | done |
 | [02-how-python-runs](lessons/02-how-python-runs) | Как выполняется код | done |
 | [03-names-types](lessons/03-names-types) | Имена, типы, изменяемость | done |
-| [04-control-flow](lessons/04-control-flow) | Условия и циклы | in_progress |
-| [05-collections](lessons/05-collections) | Коллекции | not_started |
+| [04-control-flow](lessons/04-control-flow) | Условия и циклы | done |
+| [05-collections](lessons/05-collections) | Коллекции | in_progress |
 | [06-functions](lessons/06-functions) | Функции | not_started |
 | [07-modules-files-errors](lessons/07-modules-files-errors) | Модули, файлы, ошибки | not_started |
 | [08-classes](lessons/08-classes) | Классы | not_started |
