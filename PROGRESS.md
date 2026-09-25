@@ -1,6 +1,6 @@
 # Прогресс
 
-Текущий урок: **05-collections**
+Текущий урок: **06-functions**
 
 Статусы: `not_started` → `in_progress` → `review` → `done`.
 
@@ -12,8 +12,8 @@
 | [02-how-python-runs](lessons/02-how-python-runs) | Как выполняется код | done |
 | [03-names-types](lessons/03-names-types) | Имена, типы, изменяемость | done |
 | [04-control-flow](lessons/04-control-flow) | Условия и циклы | done |
-| [05-collections](lessons/05-collections) | Коллекции | in_progress |
-| [06-functions](lessons/06-functions) | Функции | not_started |
+| [05-collections](lessons/05-collections) | Коллекции | done |
+| [06-functions](lessons/06-functions) | Функции | in_progress |
 | [07-modules-files-errors](lessons/07-modules-files-errors) | Модули, файлы, ошибки | not_started |
 | [08-classes](lessons/08-classes) | Классы | not_started |
 | [09-concurrency](lessons/09-concurrency) | Потоки и GIL | not_started |
