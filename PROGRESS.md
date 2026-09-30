@@ -1,6 +1,6 @@
 # Прогресс
 
-Текущий урок: **07-modules-files-errors**
+Текущий урок: **08-classes**
 
 Статусы: `not_started` → `in_progress` → `review` → `done`.
 
@@ -14,8 +14,8 @@
 | [04-control-flow](lessons/04-control-flow) | Условия и циклы | done |
 | [05-collections](lessons/05-collections) | Коллекции | done |
 | [06-functions](lessons/06-functions) | Функции | done |
-| [07-modules-files-errors](lessons/07-modules-files-errors) | Модули, файлы, ошибки | in_progress |
-| [08-classes](lessons/08-classes) | Классы | not_started |
+| [07-modules-files-errors](lessons/07-modules-files-errors) | Модули, файлы, ошибки | done |
+| [08-classes](lessons/08-classes) | Классы | in_progress |
 | [09-concurrency](lessons/09-concurrency) | Потоки и GIL | not_started |
 | [10-stdlib-and-why-python-wins](lessons/10-stdlib-and-why-python-wins) | stdlib и зачем Python в проде | not_started |
 
