@@ -2,24 +2,29 @@ SCALE = 10
 
 
 def greet(name: str, greeting: str = "Hello") -> str:
-    raise NotImplementedError
+    return f"{greeting}, {name}!"
 
 
 def join_words(*parts: str, sep: str = " ") -> str:
-    raise NotImplementedError
+    return sep.join(parts)
 
 
 def apply_twice(fn, x):
-    raise NotImplementedError
+    return fn(fn(x))
 
 
 def make_adder(n: int):
-    raise NotImplementedError
+    def adder(x: int) -> int:
+        return x + n
+
+    return adder
 
 
 def scaled(x: int, scale: int | None = None) -> int:
-    raise NotImplementedError
+    if scale is None:
+        return x * SCALE
+    return x * scale
 
 
 def positive_only(xs: list[int]) -> list[int]:
-    raise NotImplementedError
+    return [x for x in xs if x > 0]

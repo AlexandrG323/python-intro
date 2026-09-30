@@ -1,6 +1,6 @@
 # Прогресс
 
-Текущий урок: **06-functions**
+Текущий урок: **07-modules-files-errors**
 
 Статусы: `not_started` → `in_progress` → `review` → `done`.
 
@@ -13,8 +13,8 @@
 | [03-names-types](lessons/03-names-types) | Имена, типы, изменяемость | done |
 | [04-control-flow](lessons/04-control-flow) | Условия и циклы | done |
 | [05-collections](lessons/05-collections) | Коллекции | done |
-| [06-functions](lessons/06-functions) | Функции | in_progress |
-| [07-modules-files-errors](lessons/07-modules-files-errors) | Модули, файлы, ошибки | not_started |
+| [06-functions](lessons/06-functions) | Функции | done |
+| [07-modules-files-errors](lessons/07-modules-files-errors) | Модули, файлы, ошибки | in_progress |
 | [08-classes](lessons/08-classes) | Классы | not_started |
 | [09-concurrency](lessons/09-concurrency) | Потоки и GIL | not_started |
 | [10-stdlib-and-why-python-wins](lessons/10-stdlib-and-why-python-wins) | stdlib и зачем Python в проде | not_started |
